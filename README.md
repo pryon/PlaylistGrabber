@@ -6,8 +6,6 @@ This script can be used to save a YouTube playlist's video titles into a textfil
 
 The script should be able to handle all kinds of Unicode text, whether it's in the playlist's name or in the video title itself. The created textfile uses UTF-8 encoding by default.
 
-----------
-
 
 Purpose
 -------------
@@ -20,7 +18,6 @@ channels.
 As it's not using authentication, you can only run the script on public
 and unlisted playlists.
 
-----------
 
 Usage
 -------------
