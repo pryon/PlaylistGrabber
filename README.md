@@ -15,6 +15,10 @@ are likely to be removed/made private in the future, and you want to
 keep track of them, e.g. unreleased songs on unofficial music promotion
 channels.
 
+YouTube's auto-generated videos that are uploaded on " - Topic" channels
+are also supported, and for those, the full track ID is saved in
+`Artist(, Artist ...) - Title` format.
+
 As it's not using authentication, you can only run the script on public
 and unlisted playlists.
 
