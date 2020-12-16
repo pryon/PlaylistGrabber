@@ -15,7 +15,7 @@ are likely to be removed/made private in the future, and you want to
 keep track of them, e.g. unreleased songs on unofficial music promotion
 channels.
 
-YouTube's auto-generated videos that are uploaded on " - Topic" channels
+YouTube's auto-generated videos that are uploaded on `Artist - Topic` channels
 are also supported, and for those, the full track ID is saved in
 `Artist(, Artist ...) - Title` format.
 
@@ -40,3 +40,18 @@ https://developers.google.com/g_youtube/v3/getting-started
 
 The Google Dev API for Python can be installed using pip:
 ```$ pip install --upgrade google-api-python-client```
+
+Once you're all set up, run the script with the API key and playlist ID in the arguments.
+
+
+#### Windows
+
+```
+> py -3 playlistgrabber.py api_key playlist_id
+```
+
+#### Linux/Mac:
+
+```
+$ python3 playlistgrabber.py api_key playlist_id
+```
